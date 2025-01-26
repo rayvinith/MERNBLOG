@@ -33,7 +33,7 @@ via-purple-500 to-pink-500 rounded-lg text-hwite'>Yadav Ji</span>Blog
     <FaMoon/> 
    </Button>
    <Link to="/sign-in">
-   <Button gradientDuoTone='purpleToBlue' pill>
+   <Button gradientDuoTone='purpleToBlue' outline>
     Sign In
    </Button>
  
