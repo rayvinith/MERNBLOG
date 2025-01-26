@@ -1,0 +1,1 @@
+this project is developed by shahna , this is a mern stack blog app . 
