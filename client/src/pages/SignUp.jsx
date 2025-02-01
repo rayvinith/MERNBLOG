@@ -87,6 +87,7 @@ via-purple-500 to-pink-500 rounded-lg text-hwite'>Yadav Ji</span>Blog
     </>):"Sign Up"
   }
 </Button>
+<Oauth/>
 </form>
 <div className='flex gap-2 text-sm mt-5'>
   <span>Have an account ?</span>

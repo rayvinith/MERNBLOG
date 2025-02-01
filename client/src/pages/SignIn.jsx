@@ -4,6 +4,7 @@ import { Link,useNavigate } from 'react-router-dom'
 import { Button } from "flowbite-react";
 import {useDispatch,useSelector} from 'react-redux'
 import { signInSuccess,signInStart,signInFailure } from '../redux/user/userSlice';
+import Oauth from '../components/Oauth';
 export default function SignIn() {
   const navigate=useNavigate();
    const [formData,setFormData]=useState({});
@@ -93,6 +94,7 @@ via-purple-500 to-pink-500 rounded-lg text-hwite'>Yadav Ji</span>Blog
     </>):"Sign In"
   }
 </Button>
+<Oauth/>
 </form>
 <div className='flex gap-2 text-sm mt-5'>
   <span>New to app  ?Regsiter first</span>
