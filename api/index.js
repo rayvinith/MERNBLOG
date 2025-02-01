@@ -3,10 +3,16 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv'
 import userRoutes from './routes/user.routes.js';
 import authRoutes from './routes/auth.route.js';
+import cors from 'cors';
 const app = express();
 app.use(express.json());
+//how to use cors
+
+
+app.use(cors());
+
 dotenv.config();
-mongoose.connect("mongodb://localhost:27017/").then(
+mongoose.connect("mongodb+srv://rayaniket6404:QjYc5yUrn0VTyYMA@cluster0.7pfba.mongodb.net/MERNBLOG").then(
     ()=>{
         console.log('MongoDB Connected...');
     }
