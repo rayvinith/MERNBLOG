@@ -4,10 +4,12 @@ import dotenv from 'dotenv'
 import userRoutes from './routes/user.routes.js';
 import authRoutes from './routes/auth.route.js';
 import cors from 'cors';
+import cookieParser from 'cookie-parser';
 const app = express();
 app.use(express.json());
 //how to use cors
 
+app.use(cookieParser());
 
 app.use(cors());
 
